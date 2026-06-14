@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Primary Colors - Trustworthy Blue Palette -->
+    <color name="primary">#1565C0</color>
+    <color name="primary_variant">#0D47A1</color>
+    <color name="primary_light">#E3F2FD</color>
+
+    <!-- Secondary Colors - Professional Gray -->
+    <color name="secondary">#546E7A</color>
+    <color name="secondary_variant">#37474F</color>
+    <color name="secondary_light">#ECEFF1</color>
+
+    <!-- Surface & Background -->
+    <color name="surface">#FFFFFF</color>
+    <color name="background">#F5F7FA</color>
+    <color name="surface_variant">#F0F4F8</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#1A1A1A</color>
+    <color name="text_secondary">#616161</color>
+    <color name="text_disabled">#9E9E9E</color>
+
+    <!-- Status Colors -->
+    <color name="success">#2E7D32</color>
+    <color name="error">#C62828</color>
+    <color name="warning">#F57C00</color>
+
+    <!-- Overlay & Divider -->
+    <color name="overlay">#80000000</color>
+    <color name="divider">#E0E0E0</color>
+
+    <!-- Accessible High Contrast -->
+    <color name="focus_border">#1565C0</color>
+    <color name="ripple_color">#1F1565C0</color>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Primary Colors - Adjusted for Dark Mode -->
+    <color name="primary">#42A5F5</color>
+    <color name="primary_variant">#1976D2</color>
+    <color name="primary_light">#1E3A5F</color>
+
+    <!-- Secondary Colors -->
+    <color name="secondary">#78909C</color>
+    <color name="secondary_variant">#546E7A</color>
+    <color name="secondary_light">#2C3E50</color>
+
+    <!-- Surface & Background (Dark Theme) -->
+    <color name="surface">#1E1E1E</color>
+    <color name="background">#121212</color>
+    <color name="surface_variant">#2C2C2C</color>
+
+    <!-- Text Colors (Dark Theme) -->
+    <color name="text_primary">#E0E0E0</color>
+    <color name="text_secondary">#B0B0B0</color>
+    <color name="text_disabled">#757575</color>
+
+    <!-- Status Colors -->
+    <color name="success">#66BB6A</color>
+    <color name="error">#EF5350</color>
+    <color name="warning">#FFA726</color>
+
+    <!-- Overlay & Divider -->
+    <color name="overlay">#80000000</color>
+    <color name="divider">#3A3A3A</color>
+
+    <!-- Accessible High Contrast -->
+    <color name="focus_border">#42A5F5</color>
+    <color name="ripple_color">#1F42A5F5</color>
+</resources>

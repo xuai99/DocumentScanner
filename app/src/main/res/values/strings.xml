@@ -1,0 +1,66 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">DocumentScanner</string>
+
+    <!-- Main Screen -->
+    <string name="scan_document">Scan Document</string>
+    <string name="scan_document_description">Tap to scan a new document using your camera</string>
+    <string name="recent_scans">Recent Scans</string>
+    <string name="no_scans_yet">No scans yet</string>
+    <string name="start_scanning_message">Tap the button below to scan your first document</string>
+
+    <!-- Preview & Results -->
+    <string name="scanned_preview">Scanned Document Preview</string>
+    <string name="preview_image_description">Preview of the most recently scanned document</string>
+    <string name="scan_result">Scan Result</string>
+    <string name="pdf_saved_at">PDF saved at: %s</string>
+    <string name="extracted_text">Extracted Text</string>
+
+    <!-- Actions -->
+    <string name="save">Save</string>
+    <string name="share">Share</string>
+    <string name="delete">Delete</string>
+    <string name="show_pinyin">Show Pinyin</string>
+    <string name="hide_pinyin">Hide Pinyin</string>
+    <string name="translate_to_english">Translate to English</string>
+    <string name="show_original">Show Original</string>
+    <string name="translating">Translating…</string>
+    <string name="downloading_model">Downloading model…</string>
+    <string name="translation_error_network">Check internet connection</string>
+    <string name="translation_error_timeout">Translation timed out. Try again.</string>
+    <string name="translation_error_model">Model download failed</string>
+    <string name="translation_error_generic">Translation failed</string>
+    <string name="edit">Edit</string>
+    <string name="retry">Retry Scan</string>
+    <string name="view_all">View All</string>
+
+    <!-- Navigation -->
+    <string name="home">Home</string>
+    <string name="history">History</string>
+    <string name="settings">Settings</string>
+
+    <!-- Settings -->
+    <string name="scan_quality">Scan Quality</string>
+    <string name="auto_save">Auto-save Scans</string>
+    <string name="save_location">Save Location</string>
+
+    <!-- Accessibility -->
+    <string name="content_description_scan_button">Scan new document button</string>
+    <string name="content_description_menu">Open menu</string>
+    <string name="content_description_settings">Open settings</string>
+    <string name="content_description_share">Share document</string>
+    <string name="content_description_delete">Delete document</string>
+
+    <!-- Error Messages -->
+    <string name="error_starting_scanner">Error starting scanner: %s</string>
+    <string name="error_saving_document">Failed to save document</string>
+    <string name="error_loading_preview">Failed to load preview</string>
+
+    <!-- Success Messages -->
+    <string name="scan_successful">Document scanned successfully</string>
+    <string name="document_saved">Document saved</string>
+
+    <!-- Empty States -->
+    <string name="empty_state_title">Ready to Scan</string>
+    <string name="empty_state_description">Capture documents, receipts, and notes with precision</string>
+</resources>

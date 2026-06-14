@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Bottom Navigation Menu with accessible touch targets -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/bottom_bar_height"
+    android:orientation="horizontal"
+    android:background="@color/surface"
+    android:elevation="8dp"
+    android:gravity="center">
+
+    <!-- Home Button -->
+    <LinearLayout
+        android:id="@+id/navHome"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/home">
+
+        <ImageView
+            android:id="@+id/iconHome"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@android:drawable/ic_menu_view"
+            android:tint="@color/primary"
+            android:importantForAccessibility="no" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="@string/home"
+            android:textSize="@dimen/text_small"
+            android:textColor="@color/primary"
+            android:importantForAccessibility="no" />
+
+    </LinearLayout>
+
+    <!-- Scan Button (Center) -->
+    <FrameLayout
+        android:id="@+id/navScan"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/scan_document">
+
+        <ImageView
+            android:layout_width="@dimen/fab_size"
+            android:layout_height="@dimen/fab_size"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_scan"
+            android:background="@drawable/bg_scan_button"
+            android:padding="@dimen/spacing_md"
+            android:tint="@color/white"
+            android:importantForAccessibility="no" />
+
+    </FrameLayout>
+
+    <!-- History Button -->
+    <LinearLayout
+        android:id="@+id/navHistory"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/history">
+
+        <ImageView
+            android:id="@+id/iconHistory"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@android:drawable/ic_menu_recent_history"
+            android:tint="@color/text_secondary"
+            android:importantForAccessibility="no" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="@string/history"
+            android:textSize="@dimen/text_small"
+            android:textColor="@color/text_secondary"
+            android:importantForAccessibility="no" />
+
+    </LinearLayout>
+
+</LinearLayout>
